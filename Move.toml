@@ -20,8 +20,7 @@ Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-fram
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
-test_remote = "0x0"
-simple_calculator =  "0x41e8d566250cd6859579e8c026c04885467a33f312ed7332aa33ac007272ef7c"
+test_remote =  "0x41e8d566250cd6859579e8c026c04885467a33f312ed7332aa33ac007272ef7c"
 
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
