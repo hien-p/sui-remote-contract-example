@@ -1,4 +1,4 @@
-module 0x0::Calculator {
+module simple_calculator::Calculator{
 
     use sui::event;
     use sui::tx_context::{Self, TxContext}; 
